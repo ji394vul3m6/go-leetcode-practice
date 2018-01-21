@@ -11,6 +11,9 @@ func init() {
 		1: solutions.TwoSum,
 		2: solutions.AddTwoNumbers,
 		3: solutions.LengthOfLongestSubstring,
+		4: solutions.FindMedianSortedArrays,
+		5: solutions.LongestPalindrome,
+		6: solutions.ConvertZigZag,
 		9: solutions.IsPalindrome,
 	}
 }
