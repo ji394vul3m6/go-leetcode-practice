@@ -11,5 +11,6 @@ func init() {
 		1: solutions.TwoSum,
 		2: solutions.AddTwoNumbers,
 		3: solutions.LengthOfLongestSubstring,
+		9: solutions.IsPalindrome,
 	}
 }
