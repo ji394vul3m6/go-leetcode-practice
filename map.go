@@ -8,12 +8,13 @@ var (
 
 func init() {
 	Questions = map[int]interface{}{
-		1: solutions.TwoSum,
-		2: solutions.AddTwoNumbers,
-		3: solutions.LengthOfLongestSubstring,
-		4: solutions.FindMedianSortedArrays,
-		5: solutions.LongestPalindrome,
-		6: solutions.ConvertZigZag,
-		9: solutions.IsPalindrome,
+		1:  solutions.TwoSum,
+		2:  solutions.AddTwoNumbers,
+		3:  solutions.LengthOfLongestSubstring,
+		5:  solutions.LongestPalindrome,
+		6:  solutions.ConvertZigZag,
+		9:  solutions.IsPalindrome,
+		20: solutions.IsValidParentheses,
+		26: solutions.RemoveDuplicates,
 	}
 }
