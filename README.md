@@ -1,0 +1,1 @@
+A place put my leetcode practice for go
