@@ -19,5 +19,6 @@ func init() {
 		22: solutions.GenerateParenthesis,
 		26: solutions.RemoveDuplicates,
 		27: solutions.RemoveSpecificElement,
+		28: solutions.ImplementStrStr,
 	}
 }
