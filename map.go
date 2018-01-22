@@ -15,6 +15,7 @@ func init() {
 		6:  solutions.ConvertZigZag,
 		9:  solutions.IsPalindrome,
 		20: solutions.IsValidParentheses,
+		21: solutions.MergeTwoLists,
 		22: solutions.GenerateParenthesis,
 		26: solutions.RemoveDuplicates,
 	}
