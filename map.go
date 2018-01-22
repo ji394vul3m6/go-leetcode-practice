@@ -18,5 +18,6 @@ func init() {
 		21: solutions.MergeTwoLists,
 		22: solutions.GenerateParenthesis,
 		26: solutions.RemoveDuplicates,
+		27: solutions.RemoveSpecificElement,
 	}
 }
