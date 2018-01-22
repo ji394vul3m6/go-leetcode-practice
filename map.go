@@ -20,5 +20,6 @@ func init() {
 		26: solutions.RemoveDuplicates,
 		27: solutions.RemoveSpecificElement,
 		28: solutions.ImplementStrStr,
+		29: solutions.SelfDivide,
 	}
 }
