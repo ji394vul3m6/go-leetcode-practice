@@ -17,6 +17,7 @@ func init() {
 		20: solutions.IsValidParentheses,
 		21: solutions.MergeTwoLists,
 		22: solutions.GenerateParenthesis,
+		23: solutions.MergeKLists,
 		26: solutions.RemoveDuplicates,
 		27: solutions.RemoveSpecificElement,
 		28: solutions.ImplementStrStr,
