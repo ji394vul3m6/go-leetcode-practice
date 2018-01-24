@@ -14,6 +14,7 @@ func init() {
 		5:  solutions.LongestPalindrome,
 		6:  solutions.ConvertZigZag,
 		9:  solutions.IsPalindrome,
+		17: solutions.LetterCombinations,
 		20: solutions.IsValidParentheses,
 		21: solutions.MergeTwoLists,
 		22: solutions.GenerateParenthesis,
@@ -22,5 +23,6 @@ func init() {
 		27: solutions.RemoveSpecificElement,
 		28: solutions.ImplementStrStr,
 		29: solutions.SelfDivide,
+		70: solutions.ClimbStairs,
 	}
 }
