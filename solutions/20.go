@@ -7,7 +7,7 @@ import (
 func IsValidParentheses() bool {
 	type testCase struct {
 		Input  string
-		Except bool
+		Expect bool
 	}
 	testCases := []testCase{
 		testCase{"{{[[(())]]}}", true},
@@ -17,9 +17,9 @@ func IsValidParentheses() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := isValidParentheses(testcase.Input)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %s, %t, get %t\n", idx, testcase.Input, testcase.Except, result)
+			fmt.Printf("Case %d fail: %s, %t, get %t\n", idx, testcase.Input, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

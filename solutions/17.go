@@ -8,7 +8,7 @@ import (
 func LetterCombinations() bool {
 	type testCase struct {
 		Digits string
-		Except []string
+		Expect []string
 	}
 	testCases := []testCase{
 		testCase{"23", []string{"ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"}},
@@ -16,9 +16,9 @@ func LetterCombinations() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := letterCombinations(testcase.Digits)
-		if !util.TestStringSliceEqual(result, testcase.Except) {
+		if !util.TestStringSliceEqual(result, testcase.Expect) {
 			ret = false
-			fmt.Printf("Case %d fail: %#v, %#v, get %#v\n", idx, testcase.Digits, testcase.Except, result)
+			fmt.Printf("Case %d fail: %#v, %#v, get %#v\n", idx, testcase.Digits, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

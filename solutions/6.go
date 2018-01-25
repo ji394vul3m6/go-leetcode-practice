@@ -9,7 +9,7 @@ func ConvertZigZag() bool {
 	type testCase struct {
 		Input  string
 		Rows   int
-		Except string
+		Expect string
 	}
 	testCases := []testCase{
 		testCase{"PAYPALISHIRING", 3, "PAHNAPLSIIGYIR"},
@@ -17,9 +17,9 @@ func ConvertZigZag() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := convertZigZag(testcase.Input, testcase.Rows)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %s, %d, %s, get '%s'\n", idx, testcase.Input, testcase.Rows, testcase.Except, result)
+			fmt.Printf("Case %d fail: %s, %d, %s, get '%s'\n", idx, testcase.Input, testcase.Rows, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

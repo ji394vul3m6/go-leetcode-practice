@@ -8,7 +8,7 @@ import (
 func GenerateParenthesis() bool {
 	type testCase struct {
 		Input  int
-		Except []string
+		Expect []string
 	}
 	testCases := []testCase{
 		testCase{3, []string{
@@ -38,9 +38,9 @@ func GenerateParenthesis() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := generateParenthesis(testcase.Input)
-		if !util.TestStringSliceEqual(result, testcase.Except) {
+		if !util.TestStringSliceEqual(result, testcase.Expect) {
 			ret = false
-			fmt.Printf("Case %d fail: %d, %#v, get %#v\n", idx, testcase.Input, testcase.Except, result)
+			fmt.Printf("Case %d fail: %d, %#v, get %#v\n", idx, testcase.Input, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

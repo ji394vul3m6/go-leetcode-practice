@@ -7,7 +7,7 @@ import (
 func LengthOfLongestSubstring() bool {
 	type testCase struct {
 		String string
-		Except int
+		Expect int
 	}
 	testCases := []testCase{
 		testCase{"abcabcbb", 3},
@@ -17,9 +17,9 @@ func LengthOfLongestSubstring() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := lengthOfLongestSubstring(testcase.String)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %s, %d, get %d\n", idx, testcase.String, testcase.Except, result)
+			fmt.Printf("Case %d fail: %s, %d, get %d\n", idx, testcase.String, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

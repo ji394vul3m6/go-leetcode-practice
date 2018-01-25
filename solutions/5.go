@@ -7,7 +7,7 @@ import (
 func LongestPalindrome() bool {
 	type testCase struct {
 		String string
-		Except string
+		Expect string
 	}
 	testCases := []testCase{
 		testCase{"babad", "bab"},
@@ -18,9 +18,9 @@ func LongestPalindrome() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := longestPalindrome(testcase.String)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %s, '%s', get '%s'\n", idx, testcase.String, testcase.Except, result)
+			fmt.Printf("Case %d fail: %s, '%s', get '%s'\n", idx, testcase.String, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

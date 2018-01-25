@@ -8,7 +8,7 @@ func ImplementStrStr() bool {
 	type testCase struct {
 		Haystack string
 		Needle   string
-		Except   int
+		Expect   int
 	}
 	testCases := []testCase{
 		testCase{"hello", "ll", 2},
@@ -19,9 +19,9 @@ func ImplementStrStr() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := implementStrStr(testcase.Haystack, testcase.Needle)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %s, %s, %d, get %d\n", idx, testcase.Haystack, testcase.Needle, testcase.Except, result)
+			fmt.Printf("Case %d fail: %s, %s, %d, get %d\n", idx, testcase.Haystack, testcase.Needle, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

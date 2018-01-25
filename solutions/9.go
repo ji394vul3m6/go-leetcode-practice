@@ -7,7 +7,7 @@ import (
 func IsPalindrome() bool {
 	type testCase struct {
 		Input  int
-		Except bool
+		Expect bool
 	}
 	testCases := []testCase{
 		testCase{1234321, true},
@@ -19,9 +19,9 @@ func IsPalindrome() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := isPalindrome(testcase.Input)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %d, %t, get %t\n", idx, testcase.Input, testcase.Except, result)
+			fmt.Printf("Case %d fail: %d, %t, get %t\n", idx, testcase.Input, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

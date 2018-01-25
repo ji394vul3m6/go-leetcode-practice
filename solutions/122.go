@@ -7,7 +7,7 @@ import (
 func MaxProfit() bool {
 	type testCase struct {
 		Prices []int
-		Except int
+		Expect int
 	}
 	testCases := []testCase{
 		testCase{[]int{1, 5, 2, 3, 1}, 5},
@@ -16,9 +16,9 @@ func MaxProfit() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := maxProfit(testcase.Prices)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %#v, %d, get %d\n", idx, testcase.Prices, testcase.Except, result)
+			fmt.Printf("Case %d fail: %#v, %d, get %d\n", idx, testcase.Prices, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

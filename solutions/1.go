@@ -9,7 +9,7 @@ func TwoSum() bool {
 	type testCase struct {
 		Nums   []int
 		Target int
-		Except []int
+		Expect []int
 	}
 	testCases := []testCase{
 		testCase{[]int{2, 7, 11, 15}, 9, []int{0, 1}},
@@ -18,9 +18,9 @@ func TwoSum() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := twoSum(testcase.Nums, testcase.Target)
-		if !util.TestIntSliceEqual(result, testcase.Except) {
+		if !util.TestIntSliceEqual(result, testcase.Expect) {
 			ret = false
-			fmt.Printf("Case %d fail: %#v, %#v, %#v, get %#v\n", idx, testcase.Nums, testcase.Target, testcase.Except, result)
+			fmt.Printf("Case %d fail: %#v, %#v, %#v, get %#v\n", idx, testcase.Nums, testcase.Target, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

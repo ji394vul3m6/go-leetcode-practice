@@ -9,7 +9,7 @@ func UniquePaths() bool {
 	type testCase struct {
 		Width  int
 		Height int
-		Except int
+		Expect int
 	}
 	testCases := []testCase{
 		testCase{1, 1, 1},
@@ -24,9 +24,9 @@ func UniquePaths() bool {
 	for idx, testcase := range testCases {
 		result1 := uniquePaths(testcase.Width, testcase.Height)
 		result2 := uniquePaths2(testcase.Width, testcase.Height)
-		if result1 != testcase.Except || result2 != testcase.Except {
+		if result1 != testcase.Expect || result2 != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %d, %d, %d, get %d, %d\n", idx, testcase.Width, testcase.Height, testcase.Except, result1, result2)
+			fmt.Printf("Case %d fail: %d, %d, %d, get %d, %d\n", idx, testcase.Width, testcase.Height, testcase.Expect, result1, result2)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

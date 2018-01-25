@@ -4,17 +4,11 @@ import (
 	"fmt"
 )
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func AddTwoNumbers() bool {
 	type testCase struct {
 		List1  *ListNode
 		List2  *ListNode
-		Except *ListNode
+		Expect *ListNode
 	}
 	testCases := []testCase{
 		testCase{
@@ -41,12 +35,12 @@ func AddTwoNumbers() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := addTwoNumbers(testcase.List1, testcase.List2)
-		if !testNodeSliceEqual(result, testcase.Except) {
+		if !testNodeSliceEqual(result, testcase.Expect) {
 			ret = false
 			fmt.Printf("Case %d fail: %s, %s, %s, get %s\n",
 				idx, printListNode(testcase.List1),
 				printListNode(testcase.List2),
-				printListNode(testcase.Except),
+				printListNode(testcase.Expect),
 				printListNode(result))
 		} else {
 			fmt.Printf("Case %d pass\n", idx)

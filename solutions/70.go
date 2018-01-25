@@ -7,7 +7,7 @@ import (
 func ClimbStairs() bool {
 	type testCase struct {
 		Stairs int
-		Except int
+		Expect int
 	}
 	testCases := []testCase{
 		testCase{1, 1},
@@ -18,9 +18,9 @@ func ClimbStairs() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := climbStairs(testcase.Stairs)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %d, %d, get %d\n", idx, testcase.Stairs, testcase.Except, result)
+			fmt.Printf("Case %d fail: %d, %d, get %d\n", idx, testcase.Stairs, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

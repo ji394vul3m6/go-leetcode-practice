@@ -6,7 +6,7 @@ func SelfDivide() bool {
 	type testCase struct {
 		Dividend int
 		Divisor  int
-		Except   int
+		Expect   int
 	}
 	testCases := []testCase{
 		testCase{17, 2, 8},
@@ -20,9 +20,9 @@ func SelfDivide() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := divide(testcase.Dividend, testcase.Divisor)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %d, %d, %d, get %d\n", idx, testcase.Dividend, testcase.Divisor, testcase.Except, result)
+			fmt.Printf("Case %d fail: %d, %d, %d, get %d\n", idx, testcase.Dividend, testcase.Divisor, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}

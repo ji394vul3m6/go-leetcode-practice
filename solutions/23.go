@@ -8,7 +8,7 @@ import (
 func MergeKLists() bool {
 	type testCase struct {
 		List   []*ListNode
-		Except *ListNode
+		Expect *ListNode
 	}
 	testCases := []testCase{
 		testCase{
@@ -43,7 +43,7 @@ func MergeKLists() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := mergeKLists2(testcase.List)
-		if !testNodeSliceEqual(result, testcase.Except) {
+		if !testNodeSliceEqual(result, testcase.Expect) {
 			ret = false
 			showStr := ""
 			for _, list := range testcase.List {
@@ -51,7 +51,7 @@ func MergeKLists() bool {
 			}
 			fmt.Printf("Case %d fail: %s, %s, get %s\n",
 				idx, showStr,
-				printListNode(testcase.Except),
+				printListNode(testcase.Expect),
 				printListNode(result))
 		} else {
 			fmt.Printf("Case %d pass\n", idx)

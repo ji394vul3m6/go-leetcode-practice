@@ -8,7 +8,7 @@ func PyramidTransition() bool {
 	type testCase struct {
 		Bottom  string
 		Allowed []string
-		Except  bool
+		Expect  bool
 	}
 	testCases := []testCase{
 		testCase{"XYZ", []string{"XYD", "YZE", "DEA", "FFF"}, true},
@@ -27,9 +27,9 @@ func PyramidTransition() bool {
 	ret := true
 	for idx, testcase := range testCases {
 		result := pyramidTransition(testcase.Bottom, testcase.Allowed)
-		if result != testcase.Except {
+		if result != testcase.Expect {
 			ret = false
-			fmt.Printf("Case %d fail: %s, %#v, %t, get %t\n", idx, testcase.Bottom, testcase.Allowed, testcase.Except, result)
+			fmt.Printf("Case %d fail: %s, %#v, %t, get %t\n", idx, testcase.Bottom, testcase.Allowed, testcase.Expect, result)
 		} else {
 			fmt.Printf("Case %d pass\n", idx)
 		}
