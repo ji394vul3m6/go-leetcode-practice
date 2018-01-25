@@ -25,6 +25,7 @@ func init() {
 		29:  solutions.SelfDivide,
 		62:  solutions.UniquePaths,
 		70:  solutions.ClimbStairs,
+		122: solutions.MaxProfit,
 		756: solutions.PyramidTransition,
 	}
 }
