@@ -23,6 +23,7 @@ func init() {
 		27:  solutions.RemoveSpecificElement,
 		28:  solutions.ImplementStrStr,
 		29:  solutions.SelfDivide,
+		62:  solutions.UniquePaths,
 		70:  solutions.ClimbStairs,
 		756: solutions.PyramidTransition,
 	}
