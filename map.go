@@ -26,6 +26,7 @@ func init() {
 		62:  solutions.UniquePaths,
 		70:  solutions.ClimbStairs,
 		122: solutions.MaxProfit,
+		755: solutions.PourWater,
 		756: solutions.PyramidTransition,
 	}
 }
