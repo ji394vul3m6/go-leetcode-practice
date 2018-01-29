@@ -26,6 +26,7 @@ func init() {
 		55:  solutions.CanJump,
 		62:  solutions.UniquePaths,
 		70:  solutions.ClimbStairs,
+		83:  solutions.DeleteDuplicates,
 		122: solutions.MaxProfit,
 		755: solutions.PourWater,
 		495: solutions.FindPoisonedDuration,
