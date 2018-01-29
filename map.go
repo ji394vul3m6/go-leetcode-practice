@@ -28,6 +28,7 @@ func init() {
 		70:  solutions.ClimbStairs,
 		83:  solutions.DeleteDuplicates,
 		122: solutions.MaxProfit,
+		124: solutions.MaxPathSum,
 		755: solutions.PourWater,
 		495: solutions.FindPoisonedDuration,
 		739: solutions.DailyTemperatures,

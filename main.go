@@ -21,6 +21,10 @@ func main() {
 	}
 
 	fmt.Printf("Run question: %d\n", problemID)
-	ret := Questions[problemID].(func() bool)()
-	fmt.Printf("Run result: %t\n", ret)
+	if runFunc, ok := Questions[problemID]; ok {
+		ret := runFunc.(func() bool)()
+		fmt.Printf("Run result: %t\n", ret)
+	} else {
+		fmt.Printf("Run %d hasn't not finish\n", problemID)
+	}
 }
