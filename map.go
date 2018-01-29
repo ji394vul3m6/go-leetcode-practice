@@ -23,11 +23,13 @@ func init() {
 		27:  solutions.RemoveSpecificElement,
 		28:  solutions.ImplementStrStr,
 		29:  solutions.SelfDivide,
+		55:  solutions.CanJump,
 		62:  solutions.UniquePaths,
 		70:  solutions.ClimbStairs,
 		122: solutions.MaxProfit,
 		755: solutions.PourWater,
 		495: solutions.FindPoisonedDuration,
+		739: solutions.DailyTemperatures,
 		756: solutions.PyramidTransition,
 	}
 }
