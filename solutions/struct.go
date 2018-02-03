@@ -15,6 +15,12 @@ type ListNode struct {
 	Next *ListNode
 }
 
+type DoubleListNode struct {
+	Val  int
+	Next *DoubleListNode
+	Last *DoubleListNode
+}
+
 func sliceToListNode(input []int) *ListNode {
 	if len(input) == 0 {
 		return nil
@@ -77,6 +83,39 @@ func printListNode(list *ListNode) string {
 	for node != nil {
 		ret = append(ret, node.Val)
 		node = node.Next
+	}
+	return fmt.Sprint(ret)
+}
+
+func debugDoubleListNode(list *DoubleListNode, max int) {
+	node := list
+	n := 1
+	for node != nil {
+		fmt.Printf("%02d: %v <- %v -> %v\n", n, node.Last, node, node.Next)
+		node = node.Next
+		n++
+		if n > max && node != nil {
+			fmt.Println("Error!")
+			break
+		}
+	}
+}
+
+func printDoubleListNode(list *DoubleListNode, max int) string {
+	if list == nil {
+		return "nil"
+	}
+	node := list
+	ret := []int{}
+	n := 1
+	for node != nil {
+		ret = append(ret, node.Val)
+		node = node.Next
+		n++
+		if n > max && node != nil {
+			fmt.Println("Error!")
+			break
+		}
 	}
 	return fmt.Sprint(ret)
 }
