@@ -25,6 +25,7 @@ Medium
 > * 22
 > * 29
 > * 62
+> * 397 - Integer Replacement
 > * 756
 
 Hard
