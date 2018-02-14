@@ -33,7 +33,7 @@ func init() {
 		397: solutions.IntegerReplacement,
 		755: solutions.PourWater,
 		495: solutions.FindPoisonedDuration,
-		739: solutions.DailyTemperatures,
+		658: solutions.FindClosestElements,
 		756: solutions.PyramidTransition,
 	}
 }

@@ -26,6 +26,7 @@ Medium
 > * 29
 > * 62
 > * 397 - Integer Replacement
+> * 658 - Find K Closest Elements [https://leetcode.com/problems/find-k-closest-elements]
 > * 756
 
 Hard
