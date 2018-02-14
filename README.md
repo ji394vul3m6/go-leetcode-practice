@@ -16,6 +16,7 @@ Easy:
 > * 70
 > * 83 - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
 > * 122
+> * 783 - [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
 
 Medium
 ---------------
@@ -30,6 +31,7 @@ Medium
 > * 62
 > * 397 - Integer Replacement
 > * 495 - [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)
+> * 556 - [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)
 > * 658 - [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)
 > * 756
 

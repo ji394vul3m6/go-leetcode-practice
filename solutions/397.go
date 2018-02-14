@@ -2,6 +2,7 @@ package solutions
 
 import (
 	"fmt"
+	"litttlebear/leetcode/util"
 )
 
 func IntegerReplacement() bool {
@@ -44,8 +45,7 @@ func integerReplacement(n int) int {
 
 		opt1 := 1 + buffer[idx]
 		opt2 := 1 + buffer[idx-2]
-		// min function is written in 755.go
-		buffer[idx-1] = min([]int{opt1, opt2})
+		buffer[idx-1] = util.Min([]int{opt1, opt2})
 	}
 
 	return buffer[c] + extra

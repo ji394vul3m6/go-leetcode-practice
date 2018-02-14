@@ -47,20 +47,6 @@ func pourWater(heights []int, V int, K int) []int {
 	return ret
 }
 
-func min(container []int) int {
-	if len(container) == 0 {
-		return -1
-	}
-
-	ret := container[0]
-	for _, v := range container {
-		if v < ret {
-			ret = v
-		}
-	}
-	return ret
-}
-
 func dripWater(heights []int, K int) {
 	for i := K - 1; i >= 0 && heights[i] <= heights[K]; i-- {
 		if (i == 0 && heights[i] < heights[K]) || (i > 0 && heights[i-1] > heights[i]) {

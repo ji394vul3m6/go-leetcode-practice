@@ -35,5 +35,7 @@ func init() {
 		495: solutions.FindPoisonedDuration,
 		658: solutions.FindClosestElements,
 		756: solutions.PyramidTransition,
+		783: solutions.MinDiffInBST,
+		556: solutions.NextGreaterElement,
 	}
 }
