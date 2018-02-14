@@ -30,6 +30,7 @@ func init() {
 		122: solutions.MaxProfit,
 		124: solutions.MaxPathSum,
 		146: solutions.RunLRUCacheTest,
+		397: solutions.IntegerReplacement,
 		755: solutions.PourWater,
 		495: solutions.FindPoisonedDuration,
 		739: solutions.DailyTemperatures,
