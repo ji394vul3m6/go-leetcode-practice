@@ -30,6 +30,7 @@ Medium
 > * 55 - [Jump Game](https://leetcode.com/problems/jump-game)
 > * 62
 > * 227 - [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)
+> * 299 - [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)
 > * 397 - Integer Replacement
 > * 495 - [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)
 > * 556 - [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)
