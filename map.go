@@ -36,6 +36,8 @@ func init() {
 		658: solutions.FindClosestElements,
 		756: solutions.PyramidTransition,
 		783: solutions.MinDiffInBST,
+
 		556: solutions.NextGreaterElement,
+		227: solutions.Calculate,
 	}
 }
