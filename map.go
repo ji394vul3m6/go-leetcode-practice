@@ -40,5 +40,6 @@ func init() {
 		556: solutions.NextGreaterElement,
 		227: solutions.Calculate,
 		299: solutions.BullsandCows,
+		662: solutions.WidthOfBinaryTree,
 	}
 }
