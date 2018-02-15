@@ -41,5 +41,6 @@ func init() {
 		227: solutions.Calculate,
 		299: solutions.BullsandCows,
 		662: solutions.WidthOfBinaryTree,
+		766: solutions.IsToeplitzMatrix,
 	}
 }
