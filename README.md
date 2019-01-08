@@ -16,6 +16,7 @@ Easy:
 > * 70
 > * 83 - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
 > * 122
+> * 598 - [Range Addition II](https://leetcode.com/problems/range-addition-ii/)
 > * 766 - [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)
 > * 783 - [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
 

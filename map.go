@@ -43,5 +43,6 @@ func init() {
 		662: solutions.WidthOfBinaryTree,
 		766: solutions.IsToeplitzMatrix,
 		692: solutions.TopKFrequent,
+		598: solutions.RangeAdditionII,
 	}
 }
