@@ -17,9 +17,11 @@ Easy:
 > * 70
 > * 83 - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
 > * 122 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+> * 412 - [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 > * 598 - [Range Addition II](https://leetcode.com/problems/range-addition-ii/)
 > * 766 - [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)
 > * 783 - [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
+> * 908 - [Smallest Range I](https://leetcode.com/problems/smallest-range-i/)
 
 Medium
 ---------------
@@ -31,6 +33,7 @@ Medium
 > * 22
 > * 29
 > * 55 - [Jump Game](https://leetcode.com/problems/jump-game)
+> * 153 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 > * 62
 > * 227 - [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)
 > * 299 - [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)
