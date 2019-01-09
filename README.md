@@ -8,6 +8,7 @@ Easy:
 > * 1
 > * 7
 > * 9
+> * 13 
 > * 20
 > * 21
 > * 26
@@ -15,7 +16,7 @@ Easy:
 > * 28
 > * 70
 > * 83 - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
-> * 122
+> * 122 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 > * 598 - [Range Addition II](https://leetcode.com/problems/range-addition-ii/)
 > * 766 - [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)
 > * 783 - [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)

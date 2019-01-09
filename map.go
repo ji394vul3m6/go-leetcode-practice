@@ -44,5 +44,6 @@ func init() {
 		766: solutions.IsToeplitzMatrix,
 		692: solutions.TopKFrequent,
 		598: solutions.RangeAdditionII,
+		13:  solutions.RomanToInt,
 	}
 }
