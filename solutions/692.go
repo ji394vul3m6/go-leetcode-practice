@@ -2,8 +2,9 @@ package solutions
 
 import (
 	"fmt"
-	"litttlebear/leetcode/util"
 	"strings"
+
+	"./util"
 )
 
 func TopKFrequent() bool {

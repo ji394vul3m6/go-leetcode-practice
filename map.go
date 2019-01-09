@@ -1,6 +1,6 @@
 package main
 
-import "litttlebear/leetcode/solutions"
+import "./solutions"
 
 var (
 	Questions map[int]interface{}
@@ -45,5 +45,8 @@ func init() {
 		692: solutions.TopKFrequent,
 		598: solutions.RangeAdditionII,
 		13:  solutions.RomanToInt,
+		412: solutions.FizzBuzz,
+		908: solutions.SmallestRangeI,
+		153: solutions.FindMinInRotateSorted,
 	}
 }

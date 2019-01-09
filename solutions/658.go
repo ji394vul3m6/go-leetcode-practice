@@ -2,7 +2,8 @@ package solutions
 
 import (
 	"fmt"
-	"litttlebear/leetcode/util"
+
+	"./util"
 )
 
 func FindClosestElements() bool {
