@@ -48,5 +48,8 @@ func init() {
 		412: solutions.FizzBuzz,
 		908: solutions.SmallestRangeI,
 		153: solutions.FindMinInRotateSorted,
+		869: solutions.ReorderedPowerOf2,
+		674: solutions.FindLengthOfLCIS,
+		36:  solutions.IsValidSudoku,
 	}
 }
