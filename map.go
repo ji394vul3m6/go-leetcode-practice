@@ -51,5 +51,9 @@ func init() {
 		869: solutions.ReorderedPowerOf2,
 		674: solutions.FindLengthOfLCIS,
 		36:  solutions.IsValidSudoku,
+		609: solutions.FindDuplicate,
+		682: solutions.BaseballGame,
+		202: solutions.IsHappy,
+		622: solutions.DesignCircularQueue,
 	}
 }

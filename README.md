@@ -17,10 +17,11 @@ Easy:
 > * 70
 > * 83 - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
 > * 122 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+> * 202 - [Happy Number](https://leetcode.com/problems/happy-number/submissions/)
 > * 412 - [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 > * 598 - [Range Addition II](https://leetcode.com/problems/range-addition-ii/)
 > * 674 - [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence)
-
+> * 682 - [Baseball Game](https://leetcode.com/problems/baseball-game/)
 > * 766 - [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)
 > * 783 - [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
 > * 908 - [Smallest Range I](https://leetcode.com/problems/smallest-range-i/)
@@ -43,6 +44,8 @@ Medium
 > * 397 - Integer Replacement
 > * 495 - [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)
 > * 556 - [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)
+> * 609 - [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)
+> * 622 - [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 > * 658 - [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements)
 > * 662 - [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
 > * 692 - [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)
