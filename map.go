@@ -55,5 +55,11 @@ func init() {
 		682: solutions.BaseballGame,
 		202: solutions.IsHappy,
 		622: solutions.DesignCircularQueue,
+		380: solutions.DesignRandomizedSet,
+		942: solutions.DiStringMatch,
+		372: solutions.SuperPow,
+		448: solutions.FindDisappearedNumbers,
+		860: solutions.LemonadeChange,
+		210: solutions.FindOrder,
 	}
 }

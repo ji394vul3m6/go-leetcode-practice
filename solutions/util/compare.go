@@ -90,3 +90,38 @@ func TestDoubleStringSliceEqual(a, b [][]string) bool {
 
 	return aStr == bStr
 }
+
+func TestAnswerSlice(a, b []interface{}) bool {
+	if a == nil && b == nil {
+		return true
+	}
+
+	if a == nil || b == nil {
+		return false
+	}
+
+	if len(a) != len(b) {
+		return false
+	}
+
+	for i := range a {
+		if candidate, ok := b[i].([]interface{}); ok {
+			find := false
+			for j := range candidate {
+				if a[i] == candidate[j] {
+					find = true
+					break
+				}
+			}
+			if !find {
+				return false
+			}
+		} else {
+			if a[i] != b[i] {
+				return false
+			}
+		}
+	}
+
+	return true
+}

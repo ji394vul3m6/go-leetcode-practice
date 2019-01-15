@@ -18,13 +18,16 @@ Easy:
 > * 83 - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)
 > * 122 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 > * 202 - [Happy Number](https://leetcode.com/problems/happy-number/submissions/)
-> * 412 - [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
+> * 412 - [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)'
+> * 448 - [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 > * 598 - [Range Addition II](https://leetcode.com/problems/range-addition-ii/)
 > * 674 - [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence)
 > * 682 - [Baseball Game](https://leetcode.com/problems/baseball-game/)
 > * 766 - [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)
 > * 783 - [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
+> * 860 - [Lemonade Change](https://leetcode.com/problems/lemonade-change/)
 > * 908 - [Smallest Range I](https://leetcode.com/problems/smallest-range-i/)
+> * 942 - [DI String Match](https://leetcode.com/problems/di-string-match/)
 
 Medium
 ---------------
@@ -41,6 +44,8 @@ Medium
 > * 62
 > * 227 - [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/)
 > * 299 - [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/)
+> * 372 - [Super Pow](https://leetcode.com/problems/super-pow/)
+> * 380 - [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 > * 397 - Integer Replacement
 > * 495 - [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)
 > * 556 - [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)
