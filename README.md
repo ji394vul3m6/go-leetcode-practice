@@ -2,6 +2,7 @@ A place put my leetcode practice with golang
 https://leetcode.com/litttlebear/
 
 Current finish:
+
 |Number|Question|Level|Golang|Python|
 |---|---|---|---|---|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|<span style="color:#43a047">Easy</span>|[83](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/solutions/83.go)||
