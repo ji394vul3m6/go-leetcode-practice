@@ -61,5 +61,7 @@ func init() {
 		448: solutions.FindDisappearedNumbers,
 		860: solutions.LemonadeChange,
 		210: solutions.FindOrder,
+		696: solutions.CountBinarySubstrings,
+		738: solutions.MonotoneIncreasingDigits,
 	}
 }
