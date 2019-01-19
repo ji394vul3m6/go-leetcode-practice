@@ -15,6 +15,15 @@ class Solution(object):
                         break
                     j += 1
         return count
+    def run(self):
+        testcase = [("00110011", 6), ("10101", 4), ("1010001", 4)]
+        for test in testcase:
+            ret = self.countBinarySubstrings(test[0])
+            if ret != test[1]:
+                print("Check fail with input {}, expect {}, get {}".format(test[0], test[1], ret))
+            else:
+                print("Testcase with input {} success".format(test[0]))
+
 
 class Solution2(object):
     def countBinarySubstrings(self, s):
@@ -43,14 +52,11 @@ class Solution2(object):
                 # print("count: {}".format(count))
 
         return count
-
-if __name__ == '__main__':
-    testcase = [("00110011", 6), ("10101", 4), ("1010001", 4)]
-    solution = Solution()
-    solution2 = Solution2()
-    for test in testcase:
-        ret = solution2.countBinarySubstrings(test[0])
-        if ret != test[1]:
-            print("Check fail with input {}, expect {}, get {}".format(test[0], test[1], ret))
-        else:
-            print("Testcase with input {} success".format(test[0]))
+    def run(self):
+        testcase = [("00110011", 6), ("10101", 4), ("1010001", 4)]
+        for test in testcase:
+            ret = self.countBinarySubstrings(test[0])
+            if ret != test[1]:
+                print("Check fail with input {}, expect {}, get {}".format(test[0], test[1], ret))
+            else:
+                print("Testcase with input {} success".format(test[0]))
