@@ -5,9 +5,12 @@ Current finish:
 
 |Number|Question|Level|Golang|Python|
 |---|---|---|---|---|
+|66|[PlusOne](https://leetcode.com/problems/plus-one/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy||[83.py](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/python/83.py)|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[83.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/83.go)||
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy||[118.py](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/python/118.py)|
 |122|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[122.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/122.go)||
 |202|[Happy Number](https://leetcode.com/problems/happy-number/submissions/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[202.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/202.go)||
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy||[283.py](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/python/283.py)|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)'|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[412.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/412.go)||
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[448.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/448.go)||
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[590.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/590.go)|[590.py](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/python/590.py)|
@@ -18,6 +21,7 @@ Current finish:
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[766.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/766.go)||
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[783.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/783.go)||
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[860.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/860.go)||
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy||[876.py](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/python/876.py)|
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[908.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/908.go)||
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|![#43a047"](https://placehold.it/15/43a047/000000?text=+) Easy|[942.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/942.go)||
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|![#ef6c00"](https://placehold.it/15/ef6c00/000000?text=+) Medium|[36.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/36.go)||

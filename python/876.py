@@ -27,6 +27,8 @@ class Solution:
         :type head: ListNode
         :rtype: ListNode
         """
+        if head is None:
+            return None
         cur = head
         ret = head
         while cur.next != None:
