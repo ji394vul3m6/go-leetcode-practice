@@ -14,6 +14,7 @@ func init() {
 		5:   solutions.LongestPalindrome,
 		6:   solutions.ConvertZigZag,
 		9:   solutions.IsPalindrome,
+		15:  solutions.TreeSum,
 		17:  solutions.LetterCombinations,
 		20:  solutions.IsValidParentheses,
 		21:  solutions.MergeTwoLists,

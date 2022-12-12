@@ -1,6 +1,7 @@
 package util
 
 import (
+	"fmt"
 	"sort"
 	"strings"
 )
@@ -89,6 +90,40 @@ func TestDoubleStringSliceEqual(a, b [][]string) bool {
 	bStr := strings.Join(lines, ",")
 
 	return aStr == bStr
+}
+
+func TestDoubleIntSliceEqual(a, b [][]int) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	if len(a) == 0 {
+		return true
+	}
+
+	l := len(a)
+	aStrs := make([]string, l)
+	bStrs := make([]string, l)
+	for idx := range a {
+		sort.Ints(a[idx])
+		aStr := ""
+		for _, num := range a[idx] {
+			aStr = fmt.Sprintf("%s,%d", aStr, num)
+		}
+
+		sort.Ints(b[idx])
+		bStr := ""
+		for _, num := range a[idx] {
+			bStr = fmt.Sprintf("%s,%d", bStr, num)
+		}
+
+		aStrs = append(aStrs, aStr)
+		bStrs = append(bStrs, bStr)
+	}
+
+	sort.Strings(aStrs)
+	sort.Strings(bStrs)
+
+	return strings.Join(aStrs, ".") == strings.Join(bStrs, ".")
 }
 
 func TestAnswerSlice(a, b []interface{}) bool {

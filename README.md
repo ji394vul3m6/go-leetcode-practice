@@ -5,6 +5,7 @@ Current finish:
 
 |Number|Question|Level|Golang|Python|
 |---|---|---|---|---|
+|66|[PlusOne](https://leetcode.com/problems/3sum/)|🟢 Easy|[15.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/15.go)||
 |66|[PlusOne](https://leetcode.com/problems/plus-one/)|🟢 Easy||[83.py](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/python/83.py)|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|🟢 Easy|[83.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/83.go)||
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|🟢 Easy||[118.py](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/python/118.py)|
@@ -35,6 +36,7 @@ Current finish:
 |372|[Super Pow](https://leetcode.com/problems/super-pow/)|🟠 Medium|[372.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/372.go)||
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|🟠 Medium|[380.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/380.go)||
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/)|🟠 Medium|[495.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/495.go)||
+|539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|🟠 Medium|[539.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/539.go)||
 |556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/description/)|🟠 Medium|[556.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/556.go)||
 |609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|🟠 Medium|[609.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/609.go)||
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|🟠 Medium|[622.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/622.go)||
