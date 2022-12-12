@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"./util"
+	"go-leetcode-pratice/solutions/util"
 )
 
 func FizzBuzz() bool {

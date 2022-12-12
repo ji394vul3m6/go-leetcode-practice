@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"./treenode"
-	"./util"
+	"go-leetcode-pratice/solutions/treenode"
+	"go-leetcode-pratice/solutions/util"
 )
 
 func FindOrder() bool {

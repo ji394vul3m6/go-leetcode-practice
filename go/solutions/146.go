@@ -3,7 +3,7 @@ package solutions
 import (
 	"fmt"
 
-	"./lrucache"
+	"go-leetcode-pratice/solutions/lrucache"
 )
 
 func RunLRUCacheTest() bool {

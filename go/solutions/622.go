@@ -3,9 +3,9 @@ package solutions
 import (
 	"fmt"
 
-	"./circularqueue"
+	"go-leetcode-pratice/solutions/circularqueue"
 
-	"./util"
+	"go-leetcode-pratice/solutions/util"
 )
 
 func DesignCircularQueue() bool {

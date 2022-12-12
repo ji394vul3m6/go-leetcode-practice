@@ -1,6 +1,6 @@
 package main
 
-import "./solutions"
+import "go-leetcode-pratice/solutions"
 
 var (
 	Questions map[int]interface{}
@@ -63,5 +63,6 @@ func init() {
 		210: solutions.FindOrder,
 		696: solutions.CountBinarySubstrings,
 		738: solutions.MonotoneIncreasingDigits,
+		539: solutions.MinimumTimeDifference,
 	}
 }

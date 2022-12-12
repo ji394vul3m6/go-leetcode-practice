@@ -3,7 +3,7 @@ package solutions
 import (
 	"fmt"
 
-	"./util"
+	"go-leetcode-pratice/solutions/util"
 )
 
 func TwoSum() bool {

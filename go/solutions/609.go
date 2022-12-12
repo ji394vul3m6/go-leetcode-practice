@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"./util"
+	"go-leetcode-pratice/solutions/util"
 )
 
 func FindDuplicate() bool {

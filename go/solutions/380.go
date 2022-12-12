@@ -3,8 +3,8 @@ package solutions
 import (
 	"fmt"
 
-	"./randomizedcache"
-	"./util"
+	"go-leetcode-pratice/solutions/randomizedcache"
+	"go-leetcode-pratice/solutions/util"
 )
 
 func DesignRandomizedSet() bool {
