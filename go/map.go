@@ -65,5 +65,6 @@ func init() {
 		696: solutions.CountBinarySubstrings,
 		738: solutions.MonotoneIncreasingDigits,
 		539: solutions.MinimumTimeDifference,
+		894: solutions.AllPossibleFBT,
 	}
 }
