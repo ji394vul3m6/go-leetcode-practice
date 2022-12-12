@@ -45,7 +45,7 @@ Current finish:
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)|🟠 Medium|[692.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/692.go)||
 |738|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)|🟠 Medium|[738.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/738.go)|[738.py](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/python/738.py)|
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2)|🟠 Medium|[869.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/869.go)||
-|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/|🟠 Medium|[894.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/894.go)||
+|894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)|🟠 Medium|[894.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/894.go)||
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|🔴 Hard|[124.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/124.go)||
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache)|🔴 Hard|[146.go](https://github.com/ji394vul3m6/go-leetcode-practice/blob/master/go/solutions/146.go)|| 
 
